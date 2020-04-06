@@ -12,8 +12,10 @@ function Navbar() {
                 <div className="col s6 offset-s1">
                     <ul className="right hide-on-med-and-down">
                         <li><Link to="/">About</Link></li>
-                        <li><Link to="/portfolio">Portfolio</Link></li>
+                        <li><Link to="/portfolio">Skills</Link></li>
+                        <li><Link to="/contact">Portfolio</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/contact">Resume</Link></li>
                     </ul>
                 </div>
             </div>

@@ -5,29 +5,10 @@ function Contact() {
         <div className="container" style={{height:"78vh"}}>
             <h3 style={{borderBottom:"solid"}}>Contact</h3>
             <div className="row">
-                <form className="col s12">
-                    <div className="row">
-                        <div className="input-field col s12">
-                            <input id="name" type="text" className="validate" />
-                            <label for="name">Name</label>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="input-field col s12">
-                            <input id="email" type="email" className="validate" />
-                            <label for="email">Email</label>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="input-field col s12">
-                            <input id="message" type="text" className="validate" />
-                            <label for="message">Message</label>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <input type="button" value="Submit" style={{ border: 0, color: "white", backgroundColor: "green", height: 40, width: 80 }}></input>
-                    </div>
-                </form>
+                <h5 style={{textAlign:"center"}}>Phone: (206) 353-9828</h5>
+                <a href="https://www.linkedin.com/in/nicholas-seto-859647179/"><h5 style={{textAlign:"center"}}>Linkedin: https://www.linkedin.com/in/nicholas-seto-859647179/</h5></a>
+                <a href="https://github.com/nick555555"><h5 style={{textAlign:"center"}}>Github: https://github.com/nick555555</h5></a>
+                <a href="nsnickseto@gmail.com"><h5 style={{textAlign:"center"}}>Email: nsnickseto@gmail.com</h5></a>
             </div>
         </div>
     )
