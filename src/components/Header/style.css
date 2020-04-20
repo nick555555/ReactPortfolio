@@ -1,0 +1,35 @@
+#headerbox{
+    background-color: lightgray;
+}
+
+#name{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#title{
+    text-align: center;
+    margin-top: 0px;
+    border-bottom: solid;
+}
+
+#profilepic{
+    padding-top: 3vh;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#linkedin{
+    /* display: block; */
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#github{
+    /* display: block; */
+    margin-left: 8px;
+    margin-right: 8px;
+}
