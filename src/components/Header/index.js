@@ -10,8 +10,10 @@ function Header() {
             <img id="profilepic" src={profilePic} alt="profile" />
             <h4 id="name">Nicholas Seto</h4>
             <h5 id="title">Full-Stack Web Developer</h5>
-            <img id="linkedin" src={linkedinImg} alt="linkedin" />
-            <img id="github" src={githubImg} alt="github" />
+            <div className="row">
+                <img id="linkedin" src={linkedinImg} alt="linkedin" />
+                <img id="github" src={githubImg} alt="github" />
+            </div>
         </div>
     )
 }
