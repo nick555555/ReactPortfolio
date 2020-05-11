@@ -14,7 +14,7 @@ function App() {
       <Route exact path="/main" component={Main} />
       <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/resume" component={Resume} />
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 }
