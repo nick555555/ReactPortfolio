@@ -3,9 +3,9 @@ import Project from "../components/Project";
 import CodeQuiz from "./Images/CodeQuiz.png";
 import ParlorFlix from "./Images/ParlorFlix.png";
 import WeatherDashboard from "./Images/WeatherDashboard.png";
-import BurgerLogger from "./Images/BurgerLogger.png";
 import SpinachShooters from "./Images/SpinachShooters.png";
 import BudgetTracker from "./Images/BudgetTracker.png";
+import MHA from "./Images/MHA.png";
 
 function Portfolio() {
     return(
@@ -17,9 +17,9 @@ function Portfolio() {
                 <div className="col s4"><Project title="Weather Dashboard" image={WeatherDashboard} github="https://github.com/nick555555/Weather-Dashboard" deployed="https://nick555555.github.io/Weather-Dashboard/" summary="Displays the current weather and a 5 day weather forcast based on the city the user inputs. Prior searches are saved for easy reference." tech="HTML, CSS, Javascript, jQuery, Bootstrap, Moment.js and the Open Weather API" /></div>
             </div>
             <div className="row">
-                <div className="col s4"><Project title="Burger Logger" image={BurgerLogger} github="https://github.com/nick555555/BurgerLogger" deployed="https://calm-plains-89557.herokuapp.com/" /></div>
+                <div className="col s4"><Project title="Housing Authority" image={MHA} github="https://github.com/nick555555/housing-project" deployed="https://mhauthority.herokuapp.com/" summary="A website built for the Muckleshoot Housing Authority. Displays related events, information and forms." tech="HTML, CSS, Javascript, React, Materialize, Node.js, Formspree" /></div>
                 <div className="col s4"><Project title="Spinach Shooters" image={SpinachShooters} github="https://github.com/Javeyn/projectTwo" deployed="https://fathomless-sierra-17852.herokuapp.com/" summary="A variant of space invaders using custom assets. Includes varying game parameters and a login system." tech="HTML, CSS, Javascript, jQuery, mySQL, Handlebars, Materialize, Node.js" /></div>
-                <div className="col s4"><Project title="Budget Tracker" image={BudgetTracker} github="https://github.com/nick555555/BudgetTracker" deployed="https://warm-dusk-78374.herokuapp.com/" /></div>
+                <div className="col s4"><Project title="Budget Tracker" image={BudgetTracker} github="https://github.com/nick555555/BudgetTracker" deployed="https://warm-dusk-78374.herokuapp.com/" summary="A budget tracking app that allows users to be able to input budgetary expenses and deposits with or without an internet connection." tech="HTML, CSS, Javascript, Heroku, Express, Morgan, Mongoose, Compression" /></div>
             </div>
         </div>
     )
