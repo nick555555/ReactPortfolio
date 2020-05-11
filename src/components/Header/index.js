@@ -11,8 +11,8 @@ function Header() {
             <h4 id="name">Nicholas Seto</h4>
             <h5 id="title">Full-Stack Web Developer</h5>
             <div className="row">
-                <img id="linkedin" src={linkedinImg} alt="linkedin" />
-                <img id="github" src={githubImg} alt="github" />
+                    <a href="https://www.linkedin.com/in/nicholas-seto-859647179/"><img id="linkedin" src={linkedinImg} alt="linkedin" /></a>
+                    <a href="https://github.com/nick555555"><img id="github" src={githubImg} alt="github" /></a>
             </div>
         </div>
     )

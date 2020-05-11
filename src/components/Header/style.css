@@ -23,13 +23,14 @@
 }
 
 #linkedin{
-    /* display: block; */
-    margin-left: 8px;
-    margin-right: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #github{
-    /* display: block; */
-    margin-left: 8px;
-    margin-right: 8px;
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

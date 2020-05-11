@@ -1,3 +1,8 @@
 #skillsHeader{
     background-color: lightgray;
 }
+
+.skillsPic{
+    height: 100px;
+    width: 100px;
+}
